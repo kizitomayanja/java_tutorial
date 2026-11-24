@@ -34,6 +34,7 @@ public class EmployeeCRUD {
         System.out.println("2. Get employee details by Id");
         System.out.println("3. Register new employee.");
         print("4. Update Employee Department.");
+        print("5. Test Serialization");
         System.out.println("0. Exit");
     }
 
