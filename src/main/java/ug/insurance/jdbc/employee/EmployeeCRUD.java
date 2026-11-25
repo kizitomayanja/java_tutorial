@@ -28,15 +28,7 @@ public class EmployeeCRUD {
         return this.dburl;
     }
 
-    public void printMenu(){
-        System.out.println("======Choose your option.======");
-        System.out.println("1. Get employee table details");
-        System.out.println("2. Get employee details by Id");
-        System.out.println("3. Register new employee.");
-        print("4. Update Employee Department.");
-        print("5. Test Serialization");
-        System.out.println("0. Exit");
-    }
+
 
     public void getEmployeeById(){
 
